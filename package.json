@@ -9,6 +9,7 @@
     "@wdio/visual-service": "^8.0.4"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "wdio run ./wdio.conf.ts",
+    "wdio:update": "wdio run ./wdio.conf.ts --s"
   }
 }
