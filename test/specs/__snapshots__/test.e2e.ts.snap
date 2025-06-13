@@ -1,0 +1,6 @@
+// Snapshot v1
+
+exports[`My Login application > should login with valid credentials 1`] = `
+"You logged into a secure area!
+×"
+`;
