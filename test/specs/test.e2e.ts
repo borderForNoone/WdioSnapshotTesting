@@ -20,7 +20,7 @@ describe('My Login application', () => {
         await $('.hero__title-logo').waitForDisplayed();
 
         await expect(browser).toMatchFullPageSnapshot('fullpage', {
-            enableLayoutTesting: true,
+            enableLayoutTesting: false,
             hideAfterFirstScroll: [await $('nav')]
         });
     });
